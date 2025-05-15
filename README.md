@@ -1,10 +1,10 @@
 (Main) 
 
 Adaptive Speed Control- Adjust speed based on terrain complexity.
-The project was supposed to be autonomous however it was decided to be manual.
 
-STEP 1:
-Open the Terminal. 
+STEP 1: Place the robot in the middle bottom facing the middle of the town.
+
+STEP 2: Open the Terminal. 
 Run this code:
 
 chmod +x ./packages/my_package/src/my_publisher_node.py
