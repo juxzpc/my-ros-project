@@ -6,7 +6,7 @@ source /environment.sh
 dt-launchfile-init
 
 # launch publisher
-rosrun my_package adaptive_speed_node.py
+rosrun my_package speed_node.py
 
 # wait for app to end
 dt-launchfile-join
