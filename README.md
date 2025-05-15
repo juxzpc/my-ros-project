@@ -1,4 +1,5 @@
 (Main) 
+
 Adaptive Speed Control- Adjust speed based on terrain complexity.
 The project was supposed to be autonomous however it was decided to be manual.
 
@@ -10,30 +11,19 @@ chmod +x ./packages/my_package/src/my_publisher_node.py
 
 dts devel build -f
 
-dts devel run -H myroko -L my-publisher
+Change the name of the robot (myroko) [to the robot you are using currently] inside of this file (packages -> my-packages -> src -> adaptive_speed_node.py)
 
-dts duckiebot demo --demo_name lane_following --duckiebot_name myroko --package_name duckietown_demos
+dts devel run -H [Robot] -L my-publisher
 
-dts duckiebot keyboard_control myroko
+
+(Optional) (If "Main" doesn't work)
+
+Path following with Error Correction.
+
+dts duckiebot demo --demo_name lane_following --duckiebot_name [Robot] --package_name duckietown_demos
+
+dts duckiebot keyboard_control [Robot]
 
 and press A to start and S to finish
 
-Then, Proceed with
-
-
-STEP 2: 
-You will get a demo control on the screen. The speed is adjusted and increased.
-Go ahead and control it around the town.
-
-STEP 3:
-In case of any errors restart the laptop.
-
-(Optional) (If "Main" doesn't work)
-Path following with Error Correction.
-
-STEP 1:
-Open the Terminal. Run this code:
-dts duckiebot demo --demo_name lane_following --duckiebot_name myroko --package_name duckietown_demos
-
-STEP 2:
-The duckiebot will move and follow the lane.
+Finish.
