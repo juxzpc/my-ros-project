@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import rospy
 from duckietown_msgs.msg import Twist2DStamped
 
