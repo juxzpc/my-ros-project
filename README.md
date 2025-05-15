@@ -10,6 +10,8 @@ chmod +x ./packages/my_package/src/my_publisher_node.py
 
 dts devel build -f
 
+dts devel run -H myroko -L my-publisher
+
 dts duckiebot demo --demo_name lane_following --duckiebot_name myroko --package_name duckietown_demos
 
 dts duckiebot keyboard_control myroko
