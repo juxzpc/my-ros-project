@@ -7,6 +7,8 @@ STEP 1: Place the robot in the middle bottom facing the middle of the town.
 STEP 2: Open the Terminal. 
 Run this code:
 
+git clone https://github.com/juxzpc/my-ros-project
+
 chmod +x ./packages/my_package/src/my_publisher_node.py
 
 dts devel build -f
