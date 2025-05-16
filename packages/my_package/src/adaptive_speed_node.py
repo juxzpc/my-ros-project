@@ -22,7 +22,7 @@ def move_robot():
     cmd.v = 0.2  # slower linear speed
     cmd.omega = -2.0  # negative for right turn
     start_time = time.time()
-    while time.time() - start_time < 3.5:  # adjust timing to match 90° turn
+    while time.time() - start_time < 3.4:  # adjust timing to match 90° turn
         pub.publish(cmd)
         rospy.sleep(0.1)
 
@@ -38,7 +38,7 @@ def move_robot():
     cmd.v = 0.2  # slower linear speed
     cmd.omega = -2.0  # negative for right turn
     start_time = time.time()
-    while time.time() - start_time < 3.8:  # adjust timing to match 90° turn
+    while time.time() - start_time < 3.6:  # adjust timing to match 90° turn
         pub.publish(cmd)
         rospy.sleep(0.1)
 
